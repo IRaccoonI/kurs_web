@@ -1,0 +1,26 @@
+.dashboardItemContainer {
+  position: relative;
+  overflow: hidden;
+
+  color: var(--bs-body-color) !important;
+}
+
+.dashboardItemImgContainer {
+  aspect-ratio: 1;
+}
+
+.dashboardItemHoverContent {
+  height: 100%;
+  width: 100%;
+  
+  position: absolute;
+  top: 100%;
+  left: 0;
+
+  background-color: rgba(165, 165, 165, 0.95);
+  transition: top .3s linear;
+}
+
+.dashboardItemContainer:hover .dashboardItemHoverContent {
+  top: 0;
+}
