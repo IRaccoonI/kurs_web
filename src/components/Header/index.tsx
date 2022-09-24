@@ -12,10 +12,13 @@ const Header: React.FC = () => {
             <Link to="/">
               <img className="logoImg" src={logo} alt="logo" />
             </Link>
-            <Link to="/create">
+            <Link to="/">
+              <button type="button" className="btn btn-secondary px-3 ms-3">
+                Dashboard
+              </button>
               <button
                 type="button"
-                className="btn btn-outline-success px-3 ms-3"
+                className="btn btn-outline-success px-3 ms-2"
               >
                 Попробовать создать
               </button>
