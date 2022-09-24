@@ -16,6 +16,8 @@ const Header: React.FC = () => {
               <button type="button" className="btn btn-secondary px-3 ms-3">
                 Dashboard
               </button>
+            </Link>
+            <Link to="/create">
               <button
                 type="button"
                 className="btn btn-outline-success px-3 ms-2"
